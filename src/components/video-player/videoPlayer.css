@@ -1,0 +1,24 @@
+.player-wrapper {
+  position: relative;
+  height: 100vh;
+
+  margin: auto;
+}
+
+.react-playertest {
+  position: relative;
+  margin: auto;
+}
+
+.load {
+  position: absolute;
+  left: 25vw;
+  z-index: 2;
+}
+
+.button {
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  z-index: 2;
+}

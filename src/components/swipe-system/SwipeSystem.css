@@ -1,0 +1,79 @@
+.swiper {
+  position: relative;
+  height: 100vh;
+  width: 60%;
+
+  background-color: rgb(8, 8, 32);
+}
+
+iframe {
+  pointer-events: none;
+  height: 100%;
+  width: 100%;
+}
+
+.img-div {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.label {
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .swiper {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+    background-color: black;
+  }
+}
+
+.swiper-wrapper {
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.test {
+  position: absolute;
+  top: 35%;
+  left: 1;
+  right: 0;
+  margin-left: auto;
+  margin-right: 2.4%;
+  width: 15%;
+}
+
+.testl {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 1;
+  margin-left: 2.4%;
+  margin-right: auto;
+  width: 15%;
+}
