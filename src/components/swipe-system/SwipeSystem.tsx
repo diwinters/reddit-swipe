@@ -108,7 +108,7 @@ export function SwipeSystem(props: IAppProps) {
           }
           console.log(element);
           const response = await fetch(
-            "https://www.reddit.com/" + element + ".json?limit=25",
+            "https://www.reddit.com/" + element + ".json?limit=1000",
             {
               method: "GET",
               headers: {
