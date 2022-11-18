@@ -69,11 +69,9 @@ h2 {
 }
 
 .testl {
-  position: absolute;
-  top: 25%;
-  left: 0;
-  right: 1;
-  margin-left: 2.4%;
-  margin-right: auto;
-  width: 15%;
+  left: 2%;
+  bottom: 20px;
+  z-index: 999;
+  width: 100%;
+  text-align: left;
 }
