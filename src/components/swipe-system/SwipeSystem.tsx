@@ -273,11 +273,16 @@ export function SwipeSystem(props: IAppProps) {
       ></DraggableDialog>
 
 
-      <div className="testl label">
+<div className="testl label">
 
 
-        {<a href={post_link}>{jsonInfo.title}</a>}
-      </div>
+{<a href={post_link}>{jsonInfo.title}</a>}
+</div>
+
+
+<div style="background:white;width:100px;height:100px;display:block;z-index:9999;">
+
+</div>
 
       <Swiper
         modules={[Virtual, Mousewheel, Keyboard]}
