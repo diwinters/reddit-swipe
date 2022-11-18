@@ -350,11 +350,9 @@ export function SwipeSystem(props: IAppProps) {
       </div>
 
       <div className="testl label">
-        <h2>Subreddit: </h2>
-        {jsonInfo.subreddit_name_prefixed}
 
-        <h2>Title: </h2>
-        {<a href={post_link}>{jsonInfo.title}</a>}
+
+        {{jsonInfo.title}}
       </div>
 
       <Swiper
