@@ -246,7 +246,6 @@ export function SwipeSystem(props: IAppProps) {
       } else {
         jsx = (
           <div className="img-div">
-            <img src="./././public/ad.png">
           </div>
         );
       }
