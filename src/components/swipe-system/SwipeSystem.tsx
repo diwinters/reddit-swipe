@@ -352,7 +352,7 @@ export function SwipeSystem(props: IAppProps) {
       <div className="testl label">
 
 
-        {{jsonInfo.title}}
+        {<a href={post_link}>{jsonInfo.title}</a>}
       </div>
 
       <Swiper
