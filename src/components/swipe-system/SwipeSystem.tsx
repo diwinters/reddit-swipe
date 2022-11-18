@@ -246,11 +246,7 @@ export function SwipeSystem(props: IAppProps) {
       } else {
         jsx = (
           <div className="img-div">
-            <h1>No Media Found</h1>
-            <h2>
-              This is either because the post does not have any displayable
-              media or support for this type of media has not been added yet.
-            </h2>
+            <img src="./././public/ad.png">
           </div>
         );
       }
