@@ -69,6 +69,7 @@ h2 {
 }
 
 .testl {
+    position: absolute;
   left: 2%;
   bottom: 20px;
   z-index: 999;
